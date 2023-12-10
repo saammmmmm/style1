@@ -1,0 +1,32 @@
+/* Default styles */
+div {
+  width: 80%;
+  margin: 10px auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media Query for Tablet View (772px and above) */
+@media (min-width: 772px) {
+  div {
+    width: 45%;
+    margin: 20px auto;
+    /* Additional styles for divs (e.g., padding, border) */
+  }
+
+  img {
+    max-height: 30vh;
+    margin: 0 auto;
+    /* Additional styles for images (e.g., border-radius) */
+  }
+}
+
+/* Media Query for Large Screen View (998px and above) */
+@media (min-width: 998px) {
+  div {
+    width: 30%; /* Change width to 30% of viewport */
+  }
+}

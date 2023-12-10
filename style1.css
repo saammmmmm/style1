@@ -1,0 +1,25 @@
+/* Default styles */
+div {
+  width: 80%;
+  margin: 10px auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media Query for Tablet View (772px and above) */
+@media (min-width: 772px) {
+  div {
+    width: 45%; /* Change width to 45% of viewport */
+    margin: 20px auto; /* Adjust margin for spacing */
+    /* Additional styles for divs (e.g., padding, border) */
+  }
+
+  img {
+    max-height: 30vh; /* Limit height to 30% of viewport height */
+    margin: 0 auto; /* Center images */
+    /* Additional styles for images (e.g., border-radius) */
+  }
+}
